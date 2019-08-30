@@ -15,7 +15,7 @@ export default class Recipe extends Component {
 
         return (
             <React.Fragment>
-                <div className="col-01 mx-auto col-6-md col-ld-4 my-3">
+                <div className="col-01 mx-auto col-6-md col-ld-4 my-3" style={{width:"320px", height:"410px" }}>
                     <div className="card">
                         <img src={image_url} alt="pic" className="img-card-top"
                         style={{height: "14rem"}}/>
